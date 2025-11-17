@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.someshwar.fun
-REDIS_HOST: redis.someshwar.fun
-MYSQL_HOST: mysql.someshwar.fun
-RABBITMQ_HOST: rabbitmq.someshwar.fun
-USER_HOST: user.someshwar.fun
-CART_HOST: cart.someshwar.fun
-SHIPPING_HOST: shipping.someshwar.fun
-PAYMENT_HOST: payment.someshwar.fun
-CATALOGUE_HOST: catalogue.someshwar.fun
+MONGODB_HOST: mongodb-{{ env }}.someshwar.fun
+REDIS_HOST: redis-{{ env }}.someshwar.fun
+MYSQL_HOST: mysql-{{ env }}.someshwar.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.someshwar.fun
+USER_HOST: user-{{ env }}.someshwar.fun
+CART_HOST: cart-{{ env }}.someshwar.fun
+SHIPPING_HOST: shipping-{{ env }}.someshwar.fun
+PAYMENT_HOST: payment-{{ env }}.someshwar.fun
+CATALOGUE_HOST: catalogue-{{ env }}.someshwar.fun
